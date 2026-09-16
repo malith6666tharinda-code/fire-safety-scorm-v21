@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="com.maliththarinda.firesafety.v21"
+          version="1.2"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="FIRE_SAFETY_ORG">
+    <organization identifier="FIRE_SAFETY_ORG">
+      <title>FIRE and SAFETY - When Every Second Counts</title>
+      <item identifier="ITEM_SCO_1" identifierref="RES_SCO_1" isvisible="true">
+        <title>FIRE and SAFETY - When Every Second Counts v2.1</title>
+        <adlcp:masteryscore>80</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES_SCO_1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <file href="style.css"/>
+      <file href="script.js"/>
+    </resource>
+  </resources>
+</manifest>
